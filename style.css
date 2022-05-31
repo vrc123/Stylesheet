@@ -1,0 +1,508 @@
+/* Menu - start */
+.pp-advanced-menu--dropdown.pp-menu-off-canvas {
+	position: fixed;
+	top: 75px;
+}
+
+.elementor-menu-cart__product {
+	display: block !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .pp-advanced-menu--dropdown.pp-menu-off-canvas {
+	position: fixed;
+	top: 136px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+  .pp-advanced-menu--dropdown.pp-menu-off-canvas {
+	position: fixed;
+	top: 116px;
+	}
+}
+/* Menu - slut */
+
+/* Ikonliste - start */
+.elementor-icon-list-items .elementor-icon-list-icon {
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.elementor-icon-list-items .elementor-icon-list-text {
+  margin-left: 27px;
+}
+/* Ikonliste - slut */
+
+/* JS animationer - start */
+.animation-box {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100px !important;
+}
+
+.animation {
+    justify-content: center important;
+    width: 100px !important;
+}
+/* JS animationer - slutt */
+
+/* Team flip-box - start */
+.elementor-flip-box__layer__overlay{
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.elementor-flip-box__front {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.elementor-flip-box__back {
+    border-radius: 10px 10px 0 0 !important;
+}
+/* Team flip-box - slut */
+
+/* Produkt billede - start */
+.product-thumbnail {
+    display: none !important;
+}
+/* Produkt billede - slut */
+
+/* Kurv - start */
+.woocommerce-cart-form {
+	margin-right: 10px !important;
+}
+
+.remove {
+	margin-right: 20px;
+}
+
+.first-payment-date small {
+	font-family: "Montserrat", Sans-serif;
+	font-size: 15px;
+}
+
+td {
+	font-family: "Montserrat", Sans-serif;
+	font-size: 18px;
+}
+
+
+bdi {
+	font-weight: 500;
+}
+
+span.woocommerce-Price-amount.amount {
+	font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+	.woocommerce-cart-form {
+		margin-right: 0 !important;
+		margin-bottom: 20px !important;
+	}
+	.woocommerce-cart-form__cart-item {
+		padding: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.product-name {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		width: 100% !important;
+	}
+	
+	.product-name a {
+		text-align: center !important;
+		width: 100% !important;
+	}
+	
+	.product-price {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		width: 100% !important;
+	}
+	
+	.product-quantity {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		width: 100% !important;
+	}
+		
+	.product-subtotal {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		width: 100% !important;
+	}
+	
+	.cart-subtotal td {
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		width: 100% !important;
+	}
+	
+	.order-total td{
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+		width: 100% !important;
+	}
+	
+	.subscription-price {
+		display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	width: 100% !important;
+	}
+	
+	.remove {
+		margin-right: 0;
+	}
+	
+	.wc-proceed-to-checkout a {
+		width: 100% !important;
+	}
+	
+}
+/* Kurv - slut */
+
+/* Sensei LMS - start */
+
+.course, .course-container, .course-container .course {
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+}
+
+#content {
+	border: 0 !important;
+}
+
+.site-main a {
+	text-decoration: none;
+}
+
+.site-main a:hover {
+	color: #333333;
+}
+
+.entry-title {
+	padding: 100px 25px 0 25px !important;
+	text-align: center !important;
+}
+
+.course-container {
+	padding: 0 25px 100px 25px !important;
+	text-align: center !important;
+}
+
+#user-course-status-toggle {
+	display: flex;
+	justify-content: center;
+	margin: 0 25px !important;
+	border-bottom: solid 3px #333333;
+}
+
+#user-course-status-toggle a {
+	text-decoration: none !important;
+}
+
+#user-course-status-toggle .active {
+	border: none !important;
+	color: #ffbf00 !important;
+}
+
+#user-course-status-toggle .inactive {
+	color: #333333 !important;
+}
+
+.type-course {
+	margin-top: 0;
+	margin-bottom: 100px;
+	padding: 0 25px !important;
+}
+
+.sensei-progress-bar__label {
+	text-align: center !important;
+	font-size: 15px !important;
+	font-weight: 300 !important;
+}
+
+.sensei-block-wrapper {
+	margin: 20px 0 0 0 !important;
+}
+
+.wp-block-sensei-lms-course-outline .wp-block-sensei-lms-course-outline-module, .wp-block .wp-block-sensei-lms-course-outline-module {
+	margin: 20px 0 !important;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+.wp-block-sensei-lms-course-outline-module {
+	border: 3px solid #333333 !important;
+}
+
+.wp-block-sensei-lms-course-outline-module__name__minimal-border {
+	height: 3px !important;
+	margin: 0 -3px !important;
+	background-color: #333333 !important;
+}
+
+[type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+	color: #333333 !important;
+	background-color: #ffffff !important;
+}
+
+.btn-course button {
+	border: none !important;
+}
+
+.btn-course button:hover {
+	background-color: #333333 !important;
+	color: #ffffff !important;
+}
+
+.wp-block-sensei-lms-course-outline-module__lessons-title {
+	display: none !important;
+}
+
+.wp-block-sensei-lms-course-outline-module__title a {
+	color: #ffbf00 !important;
+	text-decoration: none !important;
+}
+
+.wp-block-sensei-lms-course-outline-module__title a:hover {
+	color: #333333 !important;
+}
+
+.wp-block-sensei-lms-course-outline-lesson:hover {
+	background-color: #ededed !important;
+}
+
+.wp-block-sensei-lms-course-outline-lesson {
+	text-decoration: none !important;
+}
+
+.wp-block-sensei-lms-course-outline-lesson span {
+	font-weight: 500 !important;
+}
+
+.course-title {
+	margin-top: 20px !important;
+}
+
+.find-kurser {
+	margin-bottom: 100px !important;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+}
+
+.find-kurser a {
+	padding: 20px 40px !important;
+	border-radius: 30px !important;
+	font-size: 15px !important;
+}
+
+.find-kurser a:hover {
+	background-color: #333333 !important;
+}
+
+.wp-block-sensei-lms-learner-courses #sensei-user-courses .course form, .wp-block-sensei-lms-learner-courses #sensei-user-courses .course .sensei-results-links {
+	display: block !important;
+	margin-bottom: 20px;
+}
+
+.sensei-results-links a {
+	padding: 20px 40px !important;
+	border-radius: 30px !important;
+	font-size: 15px !important;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+}
+
+.sensei-results-links a:hover {
+	background-color: #333333 !important;	
+	color: #ffffff !important;
+}
+
+.sensei-login-submit .button {
+	padding: 20px 40px !important;
+	border-radius: 30px !important;
+	font-size: 15px !important;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	border: none;
+}
+
+.sensei-login-submit .button:hover {
+	color: #ffffff !important;
+	background-color: #333333 !important;
+}
+
+.form-row .button {
+	padding: 20px 40px !important;
+	border-radius: 30px !important;
+	font-size: 15px !important;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	border: none;
+}
+
+.form-row .button:hover {
+	color: #ffffff !important;
+	background-color: #333333 !important;
+}
+
+.input-text, #sensei_user_login, #sensei_user_pass {
+	background-color: #ededed;
+	border: 1px solid #333333;
+	color: #333333;
+	border-radius: 10px !important;
+}
+
+#my-courses {
+	margin: 0 25px 100px 25px !important;
+}
+
+#my-courses .col-1 {
+	margin: 0 10px 0px 0px !important;
+	width: 50%;
+}
+
+#my-courses .col-2 {
+	margin: 0 0 0 10px !important;
+	width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {	
+	#my-courses .col-1 {
+		margin: 0 0 20px 0px !important;
+		width: 100%;
+	}
+
+	#my-courses .col-2 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {	
+	.button {
+		width: 100% !important;
+	}
+}
+
+/* Sensei LMS - slut */
+
+/* Min konto - start */
+#customer_login {
+	display: flex !important;
+}
+
+#customer_login .u-column1 {
+	margin-right: 5px !important;
+}	
+
+#customer_login .u-column2 {
+	margin-left: 5px !important;
+}
+
+.woocommerce-form-login__submit:hover {
+	color: #ffffff !important;
+	background-color: #333333 !important;
+}
+
+.woocommerce-form-register__submit:hover {
+	color: #ffffff !important;
+	background-color: #333333 !important;
+}
+
+@media only screen and (max-width: 1024px) {	
+	#customer_login {
+		flex-direction: column;
+		width: 100%;
+	}
+	#customer_login .u-column1 {
+		width: 100%;
+		margin-right: 0 !important;
+		margin-bottom: 20px;
+	}	
+	
+	#customer_login .u-column2 {
+		width: 100%;
+		margin-left: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {	
+	.woocommerce-form-login__submit {
+		margin-top: 20px !important;
+		width: 100%;
+	}
+
+	.woocommerce-form-register__submit {
+		width: 100%;
+	}
+}
+/* Min konto - slut */
+
+
+/* Kasse - start */
+
+.e-checkout__column-start {
+	margin-right: 5px !important;
+}
+
+.e-checkout__column-end {
+	margin-left: 5px !important;
+}
+
+.e-woocommerce-login-section {
+	margin-bottom: 20px !important;
+}
+
+.e-checkout__order_review {
+	margin-bottom: 20px !important;
+}
+
+.cart-subtotal td {
+	font-weight: 500 !important;
+}
+
+.recurring-total td {
+	font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 1024px) {	
+	.e-checkout__column-start {
+		margin-right: 0px !important;
+		margin-bottom: 20px !important;
+	}
+
+	.e-checkout__column-end {
+		margin-left: 0px !important;
+	}
+}
+
+@media only screen and (max-width: 767px) {	
+	.e-woocommerce-form-login-submit{
+		width: 100% !important;
+	}
+}
+/* Kasse - slut */
+
+/* Kontaktformular - start */
+.gform_button:hover {
+	background-color: #333333 !important;
+	color: #ffffff !important;
+}
+
+/* Kontaktformular - slut */
